@@ -1,0 +1,42 @@
+<div> 
+    Today's date :- {{presentDate}} 
+ </div>
+ <div> 
+    Today's date :- {{presentDate | date }}
+ </div>
+
+ <div> 
+    This is a short date : {{presentDate | date:'short'}} <br/>
+    This line shows the full date :- {{presentDate | date:'fullDate'}} <br/>
+    This will show a formatted date :- {{presentDate | date: 'M/dd?yyyy'}}<br/>
+    This indicates the hours and minutes :- {{presentDate | date:'h:mm'}}
+    Clarence
+ </div>
+
+ <div>
+    Date with uppercase :-  {{presentDate | date:'fullDate'  | uppercase}} <br/>
+    Date without lowercase :-   {{presentDate | date:'medium' | lowercase }} <br/>
+ </div>
+
+
+ <h2>Angular Pipes</h2>
+ <p>Current Time: {{currentTime$ | async | date:'medium'}}</p>
+
+ <h2>Currency Pipe</h2>
+ <p>{{ price | currency:'':true}}</p>
+ <p>{{ price | currency:'INR'}}</p>
+
+ <div>
+    <h3>Start index:- {{fruits | slice:2}}</h3>
+    <h4>Start and end index:- {{fruits | slice:1:4}}</h4>
+    <h5>Negative index:- {{fruits | slice:2}}</h5>
+    <h6>Negative start and end index:- {{fruits | slice:-4:-2}}</h6>
+ </div>
+ 
+
+ <div style="text-align:center">
+    <h3>Decimal Pipe</h3>
+<p>{{decimalNum1 | number}}</p>
+<p>{{decimalNum2 | number}}</p>
+</div>
+

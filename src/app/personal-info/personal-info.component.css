@@ -1,0 +1,23 @@
+#personal-info {
+    margin-bottom: 20px;
+  }
+  
+  #personal-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #personal-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #personal-info li {
+    margin-bottom: 10px;
+  }
+  
+  #personal-info strong {
+    font-weight: bold;
+    color: #666;
+  }

@@ -1,0 +1,24 @@
+#skills-certificates {
+    margin-bottom: 20px;
+  }
+  
+  #skills-certificates h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #skills-certificates ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #skills-certificates li {
+    margin-bottom: 10px;
+  }
+  
+  #skills-certificates h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #666;
+  }
